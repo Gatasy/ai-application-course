@@ -126,6 +126,7 @@ class MedRetriever:
         all_docs = self.get_all_documents(vector_store)
 
         exact_results = []
+        
         for doc in all_docs:
             source = doc.metadata.get("source", "unknown")
             source_norm = self.normalize_text(source)
@@ -138,6 +139,8 @@ class MedRetriever:
                     "score": 0.0,
                     "match_type": "entity_match",
                 })
+        if exact_results:
+            return exact_results[:top_k]
 
         # 2. 再跑向量检索，用来补足
         docs_with_scores = vector_store.similarity_search_with_score(
