@@ -150,7 +150,7 @@ class MedRetriever:
 
         vector_results = []
         for doc, score in docs_with_scores:
-            source = doc.metadata.get("source", "unknown")
+            source = doc.metadata.get("source", "unknown").replace(".json", "")
 
             vector_results.append({
                 "content": doc.page_content,
