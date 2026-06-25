@@ -113,8 +113,9 @@ class MedRetriever:
 
 if __name__ == "__main__":
     retriever = MedRetriever()
-    question = "What is aspirin used for?"
-    results = retriever.retrieve(question, kb_type="Drug", top_k=3)
+    # Disease
+    question = "What are the symptoms of diabetes mellitus?"
+    results = retriever.retrieve(question, kb_type="Disease", top_k=3)
     for i, item in enumerate(results, start=1):
         print(f"\n[{i}] source={item['source']} score={item['score']}")
         print(item["content"][:500])
