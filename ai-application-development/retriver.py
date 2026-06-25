@@ -172,9 +172,28 @@ class MedRetriever:
 
 if __name__ == "__main__":
     retriever = MedRetriever()
-    # Disease
-    question = "What are the symptoms of diabetes mellitus?"
-    results = retriever.retrieve(question, kb_type="Disease", top_k=3)
-    for i, item in enumerate(results, start=1):
-        print(f"\n[{i}] source={item['source']} score={item['score']}")
-        print(item["content"][:500])
+
+    test_questions = [
+        "What are the symptoms of hypertension?",
+        "How is bronchial asthma treated?",
+        "What causes chronic gastritis?",
+        "What are the prevention advice for coronary heart disease?",
+        "What are the symptoms of Parkinsons disease?",
+        "What is COPD?",
+        "How to prevent rheumatoid arthritis?",
+        "What are the treatment principles of cerebral infarction?",
+    ]
+
+    for question in test_questions:
+        print("\n==============================")
+        print("Question:", question)
+
+        results = retriever.retrieve(question, kb_type="Disease", top_k=3)
+
+        for i, item in enumerate(results, start=1):
+            print(
+                f"\n[{i}] source={item['source']} "
+                f"score={item['score']} "
+                f"match_type={item.get('match_type')}"
+            )
+            print(item["content"][:300])
