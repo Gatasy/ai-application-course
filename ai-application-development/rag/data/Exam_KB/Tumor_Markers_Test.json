@@ -1,0 +1,6 @@
+{
+  "name": "Tumor Markers Test",
+  "indicator_meanings": "CEA, AFP, CA125, CA199, PSA, etc.",
+  "abnormal_explanation": "Different markers elevation suggests different tumor risks; comprehensive analysis with other tests needed",
+  "precautions": "Fasting examination, avoid during inflammation, results need dynamic observation"
+}

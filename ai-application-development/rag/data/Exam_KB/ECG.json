@@ -1,0 +1,6 @@
+{
+  "name": "Electrocardiogram",
+  "indicator_meanings": "P wave, QRS complex, T wave, ST segment, etc.",
+  "abnormal_explanation": "ST elevation suggests myocardial infarction; T wave inversion indicates myocardial ischemia",
+  "precautions": "Relax during exam, avoid exercise, remove metal items"
+}

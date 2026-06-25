@@ -1,0 +1,6 @@
+{
+  "name": "Complete Blood Count",
+  "indicator_meanings": "White blood cell count, red blood cell count, hemoglobin, platelet count, etc.",
+  "abnormal_explanation": "Elevated WBC suggests infection; anemia indicates reduced hemoglobin",
+  "precautions": "Fasting examination, avoid vigorous exercise, stop medications affecting blood cells"
+}

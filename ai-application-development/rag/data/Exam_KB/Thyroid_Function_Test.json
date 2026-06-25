@@ -1,0 +1,6 @@
+{
+  "name": "Thyroid Function Test",
+  "indicator_meanings": "TSH, FT3, FT4, T3, T4, etc.",
+  "abnormal_explanation": "Elevated TSH suggests hypothyroidism; elevated FT3/FT4 indicates hyperthyroidism",
+  "precautions": "Fasting examination, avoid iodine-containing foods or medications, morning examination best"
+}

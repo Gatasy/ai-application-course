@@ -1,0 +1,6 @@
+{
+  "name": "Blood Glucose Test",
+  "indicator_meanings": "Fasting glucose, 2-hour postprandial glucose, glycated hemoglobin",
+  "abnormal_explanation": "Fasting glucose ≥7.0mmol/L suggests diabetes; HbA1c reflects long-term glucose control",
+  "precautions": "Fast for 8-10 hours, avoid high-fat diet previous day, stop medications affecting glucose"
+}

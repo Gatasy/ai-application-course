@@ -1,0 +1,7 @@
+{
+  "name": "Insulin",
+  "usage": "Treatment of diabetes, blood glucose control",
+  "side_effects": "Hypoglycemia, weight gain, injection site reactions, edema",
+  "contraindications": "During hypoglycemic episodes, allergy to this product",
+  "precautions": "Regular blood glucose monitoring, rotate injection sites, carry candy"
+}

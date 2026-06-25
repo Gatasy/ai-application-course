@@ -1,0 +1,204 @@
+[
+    {
+        "question": "高血压有哪些常见症状？",
+        "category": "Disease"
+    },
+    {
+        "question": "糖尿病的主要并发症是什么？",
+        "category": "Disease"
+    },
+    {
+        "question": "冠心病是如何形成的？",
+        "category": "Disease"
+    },
+    {
+        "question": "感冒和流感有什么区别？",
+        "category": "Disease"
+    },
+    {
+        "question": "肺炎通常由什么原因引起？",
+        "category": "Disease"
+    },
+    {
+        "question": "高血压患者日常需要注意什么？",
+        "category": "Disease"
+    },
+    {
+        "question": "糖尿病患者为什么会出现口渴症状？",
+        "category": "Disease"
+    },
+    {
+        "question": "冠心病有哪些危险因素？",
+        "category": "Disease"
+    },
+    {
+        "question": "慢性支气管炎有哪些表现？",
+        "category": "Disease"
+    },
+    {
+        "question": "肺结核会传染吗？",
+        "category": "Disease"
+    },
+    {
+        "question": "脂肪肝是什么疾病？",
+        "category": "Disease"
+    },
+    {
+        "question": "胃溃疡有哪些典型症状？",
+        "category": "Disease"
+    },
+    {
+        "question": "痛风是由什么导致的？",
+        "category": "Disease"
+    },
+    {
+        "question": "骨质疏松容易出现哪些问题？",
+        "category": "Disease"
+    },
+    {
+        "question": "贫血有哪些常见表现？",
+        "category": "Disease"
+    },
+    {
+        "question": "什么是甲状腺功能减退症？",
+        "category": "Disease"
+    },
+    {
+        "question": "肾结石会有哪些症状？",
+        "category": "Disease"
+    },
+    {
+        "question": "哮喘发作时会出现什么情况？",
+        "category": "Disease"
+    },
+    {
+        "question": "阿尔茨海默病有哪些特点？",
+        "category": "Disease"
+    },
+    {
+        "question": "如何预防糖尿病？",
+        "category": "Disease"
+    },
+
+    {
+        "question": "布洛芬有哪些副作用？",
+        "category": "Drug"
+    },
+    {
+        "question": "阿莫西林主要用于治疗什么疾病？",
+        "category": "Drug"
+    },
+    {
+        "question": "阿司匹林长期服用需要注意什么？",
+        "category": "Drug"
+    },
+    {
+        "question": "二甲双胍的作用机制是什么？",
+        "category": "Drug"
+    },
+    {
+        "question": "布洛芬可以空腹服用吗？",
+        "category": "Drug"
+    },
+    {
+        "question": "阿莫西林属于哪类抗生素？",
+        "category": "Drug"
+    },
+    {
+        "question": "阿司匹林有哪些禁忌症？",
+        "category": "Drug"
+    },
+    {
+        "question": "二甲双胍常见不良反应有哪些？",
+        "category": "Drug"
+    },
+    {
+        "question": "药物过量服用可能带来什么风险？",
+        "category": "Drug"
+    },
+    {
+        "question": "布洛芬和阿司匹林能一起吃吗？",
+        "category": "Drug"
+    },
+    {
+        "question": "阿莫西林为什么需要按疗程服用？",
+        "category": "Drug"
+    },
+    {
+        "question": "降压药通常有哪些类型？",
+        "category": "Drug"
+    },
+    {
+        "question": "他汀类药物主要用于什么？",
+        "category": "Drug"
+    },
+    {
+        "question": "对青霉素过敏还能服用阿莫西林吗？",
+        "category": "Drug"
+    },
+    {
+        "question": "药物说明书中的禁忌是什么意思？",
+        "category": "Drug"
+    },
+
+    {
+        "question": "血常规检查主要看哪些指标？",
+        "category": "Exam"
+    },
+    {
+        "question": "白细胞计数偏高意味着什么？",
+        "category": "Exam"
+    },
+    {
+        "question": "尿常规检查包括哪些项目？",
+        "category": "Exam"
+    },
+    {
+        "question": "肝功能检查中的ALT是什么？",
+        "category": "Exam"
+    },
+    {
+        "question": "肾功能检查主要检测哪些指标？",
+        "category": "Exam"
+    },
+    {
+        "question": "血糖检查结果如何理解？",
+        "category": "Exam"
+    },
+    {
+        "question": "CT检查和X光检查有什么区别？",
+        "category": "Exam"
+    },
+    {
+        "question": "血红蛋白指标代表什么？",
+        "category": "Exam"
+    },
+    {
+        "question": "尿蛋白阳性是什么意思？",
+        "category": "Exam"
+    },
+    {
+        "question": "肝功能报告中的AST是什么指标？",
+        "category": "Exam"
+    },
+    {
+        "question": "血脂检查通常包括哪些内容？",
+        "category": "Exam"
+    },
+    {
+        "question": "B超检查的原理是什么？",
+        "category": "Exam"
+    },
+    {
+        "question": "心电图检查主要观察什么？",
+        "category": "Exam"
+    },
+    {
+        "question": "核磁共振检查适用于哪些情况？",
+        "category": "Exam"
+    },
+    {
+        "question": "肌酐指标升高说明什么？",
+        "category": "Exam"
+    }
+]

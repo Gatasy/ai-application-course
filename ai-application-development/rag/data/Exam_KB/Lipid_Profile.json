@@ -1,0 +1,6 @@
+{
+  "name": "Lipid Profile",
+  "indicator_meanings": "Total cholesterol, triglycerides, HDL cholesterol, LDL cholesterol",
+  "abnormal_explanation": "Elevated cholesterol indicates atherosclerosis risk; elevated triglycerides suggests metabolic syndrome",
+  "precautions": "Fast for 12 hours, avoid high-fat diet for 3 days, consult doctor before stopping lipid-lowering drugs"
+}

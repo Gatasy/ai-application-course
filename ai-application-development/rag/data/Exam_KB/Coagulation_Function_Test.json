@@ -1,0 +1,6 @@
+{
+  "name": "Coagulation Function Test",
+  "indicator_meanings": "PT, APTT, TT, fibrinogen, etc.",
+  "abnormal_explanation": "Prolonged PT indicates abnormal extrinsic coagulation; prolonged APTT indicates abnormal intrinsic coagulation",
+  "precautions": "Fasting examination, consult doctor before stopping anticoagulants, avoid arm compression"
+}

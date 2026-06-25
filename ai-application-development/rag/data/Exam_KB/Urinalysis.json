@@ -1,0 +1,6 @@
+{
+  "name": "Urinalysis",
+  "indicator_meanings": "Urine protein, urine glucose, urine ketones, urine RBC, urine WBC, etc.",
+  "abnormal_explanation": "Protein suggests kidney damage; glucose suggests diabetes; RBC suggests urinary tract disease",
+  "precautions": "Collect midstream urine, avoid during menstruation, avoid excessive fluid intake"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Liver Function Test",
+  "indicator_meanings": "ALT, AST, total bilirubin, direct bilirubin, albumin, etc.",
+  "abnormal_explanation": "Elevated ALT/AST indicates liver cell damage; elevated bilirubin suggests jaundice or biliary obstruction",
+  "precautions": "Fasting examination, avoid alcohol, stop hepatotoxic drugs"
+}

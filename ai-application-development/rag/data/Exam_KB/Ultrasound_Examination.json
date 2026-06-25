@@ -1,0 +1,6 @@
+{
+  "name": "Ultrasound Examination",
+  "indicator_meanings": "Organ morphology, size, structure, blood flow",
+  "abnormal_explanation": "Abnormal morphology suggests lesions; abnormal blood flow indicates vascular issues",
+  "precautions": "Fasting for abdominal ultrasound, full bladder for bladder ultrasound, remove clothing from examination area"
+}

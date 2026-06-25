@@ -1,0 +1,6 @@
+{
+  "name": "Brain CT Scan",
+  "indicator_meanings": "Brain tissue density, ventricle shape, midline structure, cerebral vessels",
+  "abnormal_explanation": "High density suggests hemorrhage; low density indicates infarction or space-occupying lesion",
+  "precautions": "Remove metal items, contraindicated in pregnancy, inform allergy history before exam"
+}

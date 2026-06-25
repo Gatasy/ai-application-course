@@ -1,0 +1,7 @@
+{
+  "name": "Omeprazole",
+  "usage": "Treatment of gastric ulcer, duodenal ulcer, reflux esophagitis, H. pylori infection",
+  "side_effects": "Headache, diarrhea, constipation, vitamin B12 deficiency",
+  "contraindications": "Allergy to this drug, concurrent use of clarithromycin",
+  "precautions": "Monitor magnesium levels with long-term use, dose adjustment in elderly"
+}

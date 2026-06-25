@@ -1,0 +1,6 @@
+{
+  "name": "Renal Function Test",
+  "indicator_meanings": "Serum creatinine, blood urea nitrogen, uric acid, glomerular filtration rate, etc.",
+  "abnormal_explanation": "Elevated creatinine indicates renal insufficiency; elevated uric acid suggests gout risk",
+  "precautions": "Fasting examination, avoid high-protein diet previous day, avoid vigorous exercise"
+}

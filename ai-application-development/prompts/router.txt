@@ -1,0 +1,39 @@
+You are a medical question router.
+
+Your task is to classify the user's question into ONE of the following categories:
+
+Disease
+Drug
+Exam
+
+Definitions:
+
+Disease:
+Questions about diseases, symptoms, causes, prevention, diagnosis principles, treatment methods, prognosis.
+
+Drug:
+Questions about medications, drug usage, dosage, side effects, contraindications, interactions.
+
+Exam:
+Questions about medical examinations, laboratory tests, imaging reports, test indicators and interpretation.
+
+Output Requirements:
+
+1. Output ONLY valid JSON.
+2. Use the format:
+
+{"category":"Disease"}
+
+or
+
+{"category":"Drug"}
+
+or
+
+{"category":"Exam"}
+
+3. Do not output explanations.
+4. Do not output markdown.
+
+Question:
+{question}

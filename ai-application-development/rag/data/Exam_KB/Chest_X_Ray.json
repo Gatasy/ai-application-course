@@ -1,0 +1,6 @@
+{
+  "name": "Chest X-Ray",
+  "indicator_meanings": "Lung markings, heart size, mediastinal shape, diaphragm position",
+  "abnormal_explanation": "Lung shadows suggest inflammation or tumor; enlarged heart indicates heart failure",
+  "precautions": "Remove metal items, inform doctor if pregnant, avoid radiation exposure"
+}
