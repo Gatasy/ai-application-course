@@ -4,7 +4,7 @@ import os
 import re
 from pathlib import Path
 from typing import Dict, Any, List
-
+from config import API_KEY, BASE_URL, MODEL_NAME
 from retriever import MedRetriever
 
 
@@ -35,50 +35,46 @@ def render_prompt(template: str, **kwargs) -> str:
         prompt = prompt.replace("{" + key + "}", str(value))
     return prompt
 
-
 def call_llm(prompt: str) -> str:
     """
-    OpenAI-compatible 调用方式。
-    你们如果用的是 Qwen / DashScope / 课程平台，只要配置兼容的 base_url 和 key 即可。
+    使用 config.py 中的 API_KEY / BASE_URL / MODEL_NAME 调用 OpenAI-compatible API。
     """
     try:
-        from dotenv import load_dotenv
-        load_dotenv()
-    except Exception:
-        pass
-
-    api_key = (
-        os.getenv("OPENAI_API_KEY")
-        or os.getenv("DASHSCOPE_API_KEY")
-        or os.getenv("QWEN_API_KEY")
-    )
-    base_url = os.getenv("OPENAI_BASE_URL")
-    model = os.getenv("OPENAI_MODEL", "qwen-plus")
-
-    if not api_key:
+        from config import API_KEY, BASE_URL, MODEL_NAME
+    except ImportError:
         raise RuntimeError(
-            "没有检测到 API Key。请先设置 OPENAI_API_KEY / DASHSCOPE_API_KEY / QWEN_API_KEY。"
+            "没有找到 config.py。请在项目根目录创建 config.py，并设置 API_KEY、BASE_URL、MODEL_NAME。"
         )
+
+    if not API_KEY:
+        raise RuntimeError("config.py 中的 API_KEY 为空，请检查配置。")
 
     from openai import OpenAI
 
-    client_kwargs = {"api_key": api_key}
-    if base_url:
-        client_kwargs["base_url"] = base_url
-
-    client = OpenAI(**client_kwargs)
+    client = OpenAI(
+        api_key=API_KEY,
+        base_url=BASE_URL,
+    )
 
     response = client.chat.completions.create(
-        model=model,
+        model=MODEL_NAME,
         messages=[
-            {"role": "system", "content": "You are a careful medical knowledge assistant."},
-            {"role": "user", "content": prompt},
+            {
+                "role": "system",
+                "content": (
+                    "You are a careful medical knowledge assistant. "
+                    "Answer only based on the retrieved medical knowledge context."
+                ),
+            },
+            {
+                "role": "user",
+                "content": prompt,
+            },
         ],
         temperature=0.2,
     )
 
     return response.choices[0].message.content.strip()
-
 
 def parse_category(router_output: str) -> str:
     """
