@@ -113,8 +113,8 @@ class MedRetriever:
 
 if __name__ == "__main__":
     retriever = MedRetriever()
-    question = "What is a blood glucose test?"
-    results = retriever.retrieve(question, kb_type="Exam", top_k=3)
+    question = "What is aspirin used for?"
+    results = retriever.retrieve(question, kb_type="Drug", top_k=3)
     for i, item in enumerate(results, start=1):
         print(f"\n[{i}] source={item['source']} score={item['score']}")
         print(item["content"][:500])
